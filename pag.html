@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  text-align: center;
+}
+body
+{
+    background-attachment: fixed;
+    background-color:aliceblue;
+}
+.pagination {
+  display: inline-block;
+  font: size 30px;;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 3px solid rgb(221, 221, 221);
+  margin: 0 4px;
+  font-size: 30px;
+
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #16e4eb;
+}
+
+.pagination a:hover:not(.active) {background-color: rgb(245, 8, 8);}
+</style>
+</head>
+<body>
+
+<h1>Centered Pagination
+    <marquee behavior="10px" direction=""></marquee>
+
+    
+</h1>
+
+<div class="center">
+  <div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#" class="active">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+  </div>
+</div>
+
+</body>
+</html>
+
+
